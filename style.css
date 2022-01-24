@@ -30,3 +30,30 @@ li {
   max-width: 500px;
   padding: 25px;
 }
+
+/* ----------------------------- */
+/* ----------Packages----------- */
+/* ----------------------------- */
+.package_card h1,
+h3 {
+  color: #231d4f;
+  margin: 15px 0;
+  font-weight: 700;
+}
+
+.package_card p {
+  font-size: 14px;
+}
+
+.package_card li {
+  margin: 7px 0;
+  font-size: 16px;
+}
+.package_card .fa {
+  margin-right: 25px;
+}
+
+.hot_package {
+  border-radius: 20px;
+  background-color: #3f87f5;
+}
