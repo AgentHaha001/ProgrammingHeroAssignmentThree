@@ -94,3 +94,35 @@ h3 {
 .king_bob {
   background-color: rgba(230, 226, 39, 0.356) !important;
 }
+
+@media only screen and (max-width: 767px) {
+  .spacer_75,
+  .spacer_100 {
+    height: 20px;
+  }
+  .recent_event_btn {
+    bottom: 20px !important;
+    display: block !important;
+  }
+
+  .col-sm-reverse {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+
+  .recent_event_banner_alt {
+    animation: eventAlt 5s infinite linear;
+  }
+
+  @keyframes eventAlt {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(5%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
