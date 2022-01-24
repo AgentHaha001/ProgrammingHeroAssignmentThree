@@ -57,3 +57,40 @@ h3 {
   border-radius: 20px;
   background-color: #3f87f5;
 }
+
+/* ----------------------------- */
+/* Recent Event / Extra Section */
+/* ----------------------------- */
+
+.recent_event_container img {
+  object-fit: cover;
+  height: 300px;
+  transition-duration: 1s;
+}
+
+.recent_event_container:hover .recent_event_banner_alt {
+  left: 0 !important;
+}
+.recent_event_btn {
+  cursor: pointer;
+  bottom: -100px;
+  padding: 20px 0;
+  transition: 1s;
+}
+
+.recent_event_btn span {
+  background-color: rgba(46, 93, 245, 0.555);
+  border: none !important;
+}
+
+.recent_event_container:hover .recent_event_btn {
+  bottom: 20px !important;
+  display: block !important;
+}
+
+.artcell_20 {
+  background-color: rgba(182, 48, 48, 0.356) !important;
+}
+.king_bob {
+  background-color: rgba(230, 226, 39, 0.356) !important;
+}
