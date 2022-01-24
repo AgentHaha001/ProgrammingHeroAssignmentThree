@@ -22,3 +22,11 @@ li {
 .spacer_100 {
   height: 100px;
 }
+
+.carousel-item img {
+  height: 500px;
+}
+.carousel_text_container {
+  max-width: 500px;
+  padding: 25px;
+}
